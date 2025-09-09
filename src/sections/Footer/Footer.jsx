@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-import Logo from "../../assets/images/Logo White.png";
+import Logo from "../../assets/images/logo.jpg";
 import FooterLink from "../../components/FooterLink/FooterLink";
 import { motion } from "framer-motion";
 import { useContext } from "react";
@@ -30,15 +30,14 @@ const Footer = () => {
                 variants={riseUpItem}
                 src={Logo}
                 alt="Logo"
-                className="h-[25px] my-4"
+                className="h-[45px] my-4"
               />
             </Link>
             <motion.p
               variants={riseUpItem}
               className="text-[#929294] font-medium mb-8 lg:text-base text-[80%]"
             >
-              Palau Sebira, Kepulauan Seribu Utara, Kab. Administrasi Kepulauan
-              Seribu, Daerah Khusus Ibukota Jakarta
+              Covai,Tamilnadu
             </motion.p>
             <motion.span variants={riseUpItem}>
               <FooterLink text="Faq" />
@@ -64,9 +63,7 @@ const Footer = () => {
             <motion.span variants={riseUpItem}>
               <FooterLink text="Twitter" handle="@Digitaly" />
             </motion.span>
-            <motion.span variants={riseUpItem}>
-              <FooterLink text="Medium" handle="@Digitaly" />
-            </motion.span>
+          
             <motion.span variants={riseUpItem}>
               <FooterLink text="Telegram" handle="@Digitaly" />
             </motion.span>

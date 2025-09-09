@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import Logo from "../../assets/images/Logo.png";
+import Logo from "../../assets/images/logo.jpg";
 import { Link } from "react-scroll";
 import { motion, AnimatePresence } from "framer-motion";
 import { useContext } from "react";
@@ -39,7 +39,7 @@ const Navbar = () => {
 							variants={riseUpItem}
 							src={Logo}
 							alt='Logo'
-							className='h-[25px]'
+							className='h-[55px]'
 						/>
 					</Link>
 					<Link

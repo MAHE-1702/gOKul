@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import HomeBanner from "../../assets/images/Home Trump Banner.png";
 import TrumpTag from "../../assets/images/Trump Tag.png";
 import Button from "../../components/Button/Button";
-import { FaTiktok, FaApple, FaAmazon } from "react-icons/fa";
+import { FaTiktok, FaApple, FaAmazon, FaInstagram, FaFacebook, FaYoutube } from "react-icons/fa";
 import { FiArrowUpRight } from "react-icons/fi";
 import { AnimationContext } from "../../context/animation";
 import { motion } from "framer-motion";
@@ -78,7 +78,7 @@ const Home = () => {
                       variants={riseUpItem}
                       className="bg-black flex items-center justify-center text-white p-2 rounded-[50%] h-[50px] w-[50px] border-2 border-white"
                     >
-                      <FaTiktok size={20} />
+                      <FaInstagram size={20} />
                     </motion.div>
                   </a>
                   <a href="">
@@ -86,7 +86,7 @@ const Home = () => {
                       variants={riseUpItem}
                       className="bg-black flex items-center justify-center text-white p-2 rounded-[50%] h-[50px] w-[50px] border-2 border-white -ml-2"
                     >
-                      <FaApple size={20} />
+                      <FaFacebook size={20} />
                     </motion.div>
                   </a>
                   <a href="">
@@ -94,7 +94,7 @@ const Home = () => {
                       variants={riseUpItem}
                       className="bg-black flex items-center justify-center text-white p-2 rounded-[50%] h-[50px] w-[50px] border-2 border-white -ml-2"
                     >
-                      <FaAmazon size={20} />
+                      <FaYoutube size={20} />
                     </motion.div>
                   </a>
                 </motion.div>

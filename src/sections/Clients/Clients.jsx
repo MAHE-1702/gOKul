@@ -1,6 +1,6 @@
 import Stars from "../../assets/images/Client Star.png";
 import Tag from "../../components/Tag/Tag";
-import { FaApple, FaAmazon, FaTiktok, FaMicrosoft } from "react-icons/fa";
+import { FaApple, FaAmazon, FaTiktok, FaMicrosoft, FaInstagram, FaFacebook, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useContext } from "react";
 import { AnimationContext } from "../../context/animation";
@@ -60,13 +60,13 @@ const Clients = () => {
 
       {/* Client logos */}
       <div className="flex flex-wrap justify-between gap-4 md:gap-0 lg:flex-nowrap items-center md:justify-between py-[1rem] border-b border-t border-gray-600 mt-3 md:mt-7 lg:mt-14">
-        <FaApple className="text-[2rem] md:text-[4rem] my-6" />
+        <FaInstagram className="text-[2rem] md:text-[4rem] my-6" />
         <div className="bg-[#353535] hidden md:block h-[.5rem] w-[.5rem] lg:h-[1rem] lg:w-[1rem] rounded-[50%]"></div>
-        <FaAmazon className="text-[2rem] md:text-[4rem]" />
+        <FaFacebook className="text-[2rem] md:text-[4rem]" />
         <div className="bg-[#353535] hidden md:block h-[.5rem] w-[.5rem] lg:h-[1rem] lg:w-[1rem] rounded-[50%]"></div>
-        <FaTiktok className="text-[2rem] md:text-[4rem]" />
+        <FaYoutube className="text-[2rem] md:text-[4rem]" />
         <div className="bg-[#353535] hidden md:block h-[.5rem] w-[.5rem] lg:h-[1rem] lg:w-[1rem] rounded-[50%]"></div>
-        <FaMicrosoft className="text-[2rem] md:text-[4rem]" />
+        <FaWhatsapp className="text-[2rem] md:text-[4rem]" />
         <div className="bg-[#353535] hidden md:block h-[.5rem] w-[.5rem] lg:h-[1rem] lg:w-[1rem] rounded-[50%]"></div>
       </div>
     </div>

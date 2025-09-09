@@ -17,17 +17,36 @@ const App = () => {
   };
 
   return (
-    <LocomotiveScrollProvider options={options} containerRef={containerRef}>
-      <main className="bg-[#1e1e20]" data-scroll-container ref={containerRef}>
-        <Home />
-        <Deliver />
-        <SelectedWorks />
-        <AwardedWorks />
-        <Team />
-        <Clients />
-        <CTA />
-        <Footer />
-      </main>
+    <LocomotiveScrollProvider options={options}   watch={[]}   containerRef={containerRef}>
+     <main className="bg-[#1e1e20]" data-scroll-container ref={containerRef}>
+  <section data-scroll-section>
+    <Home />
+  </section>
+<section data-scroll-section className="min-h-screen">
+  <Deliver />
+</section>
+
+  <section data-scroll-section  className="min-h-screen">
+    <SelectedWorks />
+  </section>
+  <section data-scroll-section  className="min-h-screen">
+    <AwardedWorks />
+  </section>
+  <section data-scroll-section  className="min-h-screen">
+    <Team />
+  </section>
+  <section data-scroll-section className="min-h-screen">
+    <Clients />
+  </section>
+  <section data-scroll-section>
+    <CTA />
+  </section>
+  <section data-scroll-section>
+  <Footer />
+</section>
+
+</main>
+
     </LocomotiveScrollProvider>
   );
 };
